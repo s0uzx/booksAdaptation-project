@@ -1,4 +1,4 @@
-import LivroModel from "../models/livroModel";
+import LivroModel from "../models/livroModel.js";
 
 class LivroController {
     async getAllLivros(req, res) {
