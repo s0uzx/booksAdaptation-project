@@ -1,0 +1,39 @@
+{
+  "name": "booksadaptation-project",
+  "version": "1.0.0",
+  "description": "API para o gerenciamento de livros e suas adaptações cinematográficas.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0uzx/booksAdaptation-project.git"
+  },
+  "keywords": [
+   "nodejs", 
+   "express", 
+   "prisma", 
+   "api", 
+   "books", 
+   "movies"
+  ],
+  "author": "souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s0uzx/booksAdaptation-project/issues"
+  },
+  "homepage": "https://github.com/s0uzx/booksAdaptation-project#readme",
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+
+    "devDependencies": {
+    "prisma": "^5.7.1",
+    "nodemon": "^3.0.2"
+  }
+}
